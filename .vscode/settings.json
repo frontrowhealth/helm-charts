@@ -1,0 +1,5 @@
+{
+  "yaml.schemas": {
+    "https://github.com/helmwave/helmwave/releases/latest/download/schema.json": "file:///Users/grickerd/Desktop/helm-charts/charts/helm-rails/templates/service.yaml"
+  }
+}
