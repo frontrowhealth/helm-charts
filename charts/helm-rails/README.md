@@ -16,7 +16,7 @@ Look in [template-test](./template-test/README.md) for an example configuration.
 ## Get Repo Info
 
 ```console
-helm repo add thoughtbot-charts https://thoughtbot.github.io/helm-charts
+helm repo add frontrow-charts https://frontrowhealth.github.io/helm-charts
 helm repo update
 ```
 
@@ -25,7 +25,7 @@ _See [helm repo](https://helm.sh/docs/helm/helm_repo/) for command documentation
 ## Install Chart
 
 ```console
-helm install [RELEASE_NAME] thoughtbot-charts/helm-rails
+helm install [RELEASE_NAME] frontrow-charts/helm-rails
 ```
 
 _See [configuration](#configuration) below._
@@ -60,5 +60,5 @@ _See [helm upgrade](https://helm.sh/docs/helm/helm_upgrade/) for command documen
 To see all configurable options with detailed comments, visit the chart's [values.yaml](./values.yaml), or run these configuration commands:
 
 ```console
-helm show values thoughtbot-charts/helm-rails
+helm show values frontrow-charts/helm-rails
 ```

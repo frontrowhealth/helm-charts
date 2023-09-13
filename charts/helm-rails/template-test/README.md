@@ -2,7 +2,7 @@
 
 Running the following command:
 
-    helm template example-app thoughtbot/helm-rails \
+    helm template example-app frontrow-charts/helm-rails \
       --values values.yaml \
       --output-dir .
 
