@@ -3,6 +3,20 @@ entries:
   helm-rails:
   - apiVersion: v2
     appVersion: 1.0.0
+    created: "2023-09-13T17:36:05.879491631Z"
+    description: Helm chart for deploying Rails applications
+    digest: f451368c4c7f197f828fe5d30d1423eb450082f8f62f0a4f6ee8637b0482049e
+    kubeVersion: '>=1.27'
+    maintainers:
+    - email: gillian@thefrontrowhealth.com
+      name: GillianRickerd
+    name: helm-rails
+    type: application
+    urls:
+    - https://github.com/frontrowhealth/helm-charts/releases/download/helm-rails-0.1.14/helm-rails-0.1.14.tgz
+    version: 0.1.14
+  - apiVersion: v2
+    appVersion: 1.0.0
     created: "2023-08-11T20:21:26.648461156Z"
     description: Helm chart for deploying Rails applications
     digest: cb62b91adfe09e0f9c4920ada0c1bc6c1dbe01312c4ff1804d5e877da8fdbf3d
@@ -156,4 +170,4 @@ entries:
     urls:
     - https://github.com/thoughtbot/helm-charts/releases/download/helm-rails-0.1.2/helm-rails-0.1.2.tgz
     version: 0.1.2
-generated: "2023-08-11T20:21:26.648615557Z"
+generated: "2023-09-13T17:36:05.879565633Z"
